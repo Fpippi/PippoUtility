@@ -16,6 +16,7 @@ namespace TesterPippoUtility
             string? testNull = null;
             ExceptionPippo.MustBeNull(testNull, nameof(testNull));
 
+
         }
     }
 }
