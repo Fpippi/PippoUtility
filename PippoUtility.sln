@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PippoHelperException", "PippoHelperException\PippoHelperException.csproj", "{FBDE46D2-9697-4A3B-BF50-23E6E7000D2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesterPippoUtility", "TesterPippoUtility\TesterPippoUtility.csproj", "{FE591D0D-19F5-416E-9F7C-F9388CD7E2EF}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBDE46D2-9697-4A3B-BF50-23E6E7000D2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBDE46D2-9697-4A3B-BF50-23E6E7000D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBDE46D2-9697-4A3B-BF50-23E6E7000D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBDE46D2-9697-4A3B-BF50-23E6E7000D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE591D0D-19F5-416E-9F7C-F9388CD7E2EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE591D0D-19F5-416E-9F7C-F9388CD7E2EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE591D0D-19F5-416E-9F7C-F9388CD7E2EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE591D0D-19F5-416E-9F7C-F9388CD7E2EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
