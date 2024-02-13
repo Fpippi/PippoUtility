@@ -16,7 +16,8 @@ namespace TesterPippoUtility
             string? testNull = null;
             ExceptionPippo.MustBeNull(testNull, nameof(testNull));
 
-
+            string testNotNull = "Test";
+            ExceptionPippo.ThrowIfNull(testNotNull, nameof(testNotNull));
         }
     }
 }
